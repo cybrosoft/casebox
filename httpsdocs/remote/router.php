@@ -15,7 +15,7 @@ header('Content-Type: application/json; charset=UTF-8');
 
 $t = file_get_contents('php://input');
 
-if ($t) {   // isset($HTTP_RAW_POST_DATA)
+if (!isset($_POST['extAction']) and $t) {   // isset($HTTP_RAW_POST_DATA)
     $data = json_decode($t, true); // $HTTP_RAW_POST_DATA
 } elseif (isset($_POST['extAction'])) {
     // form post
