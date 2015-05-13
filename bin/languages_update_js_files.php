@@ -6,12 +6,11 @@
 
 namespace CB;
 
-$ds = DIRECTORY_SEPARATOR;
-$path = realpath(dirname(__FILE__) . $ds . '..' . $ds . 'httpsdocs') . $ds;
+$path = dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'httpsdocs' . DIRECTORY_SEPARATOR;
 
 require_once $path . 'config_platform.php';
 
-// select global translations
+// select main translations
 $T = array();
 
 $cfg = Config::getPlatformDBConfig();
@@ -33,10 +32,10 @@ while ($r = $res->fetch_assoc()) {
 }
 $res->close();
 
-//save each translations as global language file
+//save each translations as main language file
 saveFiles($T);
 
-echo "global language files saved\n";
+echo "main language files saved\n";
 
 //iterate cores and collect those that have custom translations
 $cores = array();
@@ -51,13 +50,16 @@ while ($r = $res->fetch_assoc()) {
     $res2 = DB\dbQuery(
         'SELECT count(*) `count`
         FROM ' . $db . '.translations'
-    ) or die(DB\dbQueryError());
-    if ($r2 = $res2->fetch_assoc()) {
-        if ($r2['count'] > 0) {
-            $cores[$r['name']] = $db;
+    ); // dont exit if db doesnt have translations
+
+    if ($res2) {
+        if ($r2 = $res2->fetch_assoc()) {
+            if ($r2['count'] > 0) {
+                $cores[$r['name']] = $db;
+            }
         }
+        $res2->close();
     }
-    $res2->close();
 }
 $res->close();
 
