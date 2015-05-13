@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for E:\var\www\casebox\httpsdocs/classes/CB/Objects/Plugins</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../css/nv.d3.css" rel="stylesheet">
+  <link href="../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../index.html">E:\var\www\casebox\httpsdocs</a></li>
+        <li><a href="../../../index.html">classes</a></li>
+        <li><a href="../../index.html">CB</a></li>
+        <li><a href="../index.html">Objects</a></li>
+        <li><a href="index.html">Plugins</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SystemProperties.php.html#10">SystemProperties</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#8">Tasks</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Thumb.php.html#9">Thumb</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Versions.php.html#9">Versions</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ObjectProperties.php.html#8">ObjectProperties</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Meta.php.html#7">Meta</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comments.php.html#10">Comments</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContentItems.php.html#8">ContentItems</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CurrentVersion.php.html#9">CurrentVersion</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Files.php.html#7">Files</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#5">Base</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Comments.php.html#10">Comments</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="ObjectProperties.php.html#8">ObjectProperties</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Base.php.html#5">Base</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Thumb.php.html#9">Thumb</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Meta.php.html#7">Meta</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ContentItems.php.html#8">ContentItems</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SystemProperties.php.html#10">SystemProperties</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Versions.php.html#9">Versions</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Tasks.php.html#8">Tasks</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Files.php.html#7">Files</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CurrentVersion.php.html#9">CurrentVersion</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Meta.php.html#9"><abbr title="Meta::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Files.php.html#10"><abbr title="Files::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CurrentVersion.php.html#12"><abbr title="CurrentVersion::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ObjectProperties.php.html#10"><abbr title="ObjectProperties::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemProperties.php.html#13"><abbr title="SystemProperties::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Versions.php.html#11"><abbr title="Versions::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Thumb.php.html#11"><abbr title="Thumb::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#11"><abbr title="Tasks::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContentItems.php.html#11"><abbr title="ContentItems::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comments.php.html#210"><abbr title="Comments::getFileLink">getFileLink</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#44"><abbr title="Base::getObjectClass">getObjectClass</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#36"><abbr title="Base::setId">setId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#18"><abbr title="Base::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comments.php.html#18"><abbr title="Comments::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comments.php.html#28"><abbr title="Comments::loadMore">loadMore</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comments.php.html#137"><abbr title="Comments::addAttachmentLinks">addAttachmentLinks</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comments.php.html#92"><abbr title="Comments::loadComment">loadComment</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#10"><abbr title="Base::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ObjectProperties.php.html#10"><abbr title="ObjectProperties::getData">getData</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Comments.php.html#137"><abbr title="Comments::addAttachmentLinks">addAttachmentLinks</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Comments.php.html#28"><abbr title="Comments::loadMore">loadMore</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Thumb.php.html#11"><abbr title="Thumb::getData">getData</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Meta.php.html#9"><abbr title="Meta::getData">getData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SystemProperties.php.html#13"><abbr title="SystemProperties::getData">getData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ContentItems.php.html#11"><abbr title="ContentItems::getData">getData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Base.php.html#44"><abbr title="Base::getObjectClass">getObjectClass</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Tasks.php.html#11"><abbr title="Tasks::getData">getData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Versions.php.html#11"><abbr title="Versions::getData">getData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Base.php.html#18"><abbr title="Base::getData">getData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Comments.php.html#92"><abbr title="Comments::loadComment">loadComment</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Files.php.html#10"><abbr title="Files::getData">getData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CurrentVersion.php.html#12"><abbr title="CurrentVersion::getData">getData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Base.php.html#36"><abbr title="Base::setId">setId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Comments.php.html#210"><abbr title="Comments::getFileLink">getFileLink</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.0.16</a> using <a href="http://php.net/" target="_top">PHP 5.5.24</a> and <a href="http://phpunit.de/">PHPUnit 4.6.6</a> at Wed May 6 13:49:24 UTC 2015.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../js/holder.js" type="text/javascript"></script>
+  <script src="../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([18,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,9,"<a href=\"Base.php.html#5\">Base<\/a>"],[0,23,"<a href=\"Comments.php.html#10\">Comments<\/a>"],[0,4,"<a href=\"ContentItems.php.html#8\">ContentItems<\/a>"],[0,2,"<a href=\"CurrentVersion.php.html#9\">CurrentVersion<\/a>"],[0,3,"<a href=\"Files.php.html#7\">Files<\/a>"],[0,5,"<a href=\"Meta.php.html#7\">Meta<\/a>"],[0,13,"<a href=\"ObjectProperties.php.html#8\">ObjectProperties<\/a>"],[0,4,"<a href=\"SystemProperties.php.html#10\">SystemProperties<\/a>"],[0,3,"<a href=\"Tasks.php.html#8\">Tasks<\/a>"],[0,6,"<a href=\"Thumb.php.html#9\">Thumb<\/a>"],[0,3,"<a href=\"Versions.php.html#9\">Versions<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Base.php.html#10\">Base::__construct<\/a>"],[0,3,"<a href=\"Base.php.html#18\">Base::getData<\/a>"],[0,2,"<a href=\"Base.php.html#36\">Base::setId<\/a>"],[0,3,"<a href=\"Base.php.html#44\">Base::getObjectClass<\/a>"],[0,1,"<a href=\"Comments.php.html#18\">Comments::getData<\/a>"],[0,7,"<a href=\"Comments.php.html#28\">Comments::loadMore<\/a>"],[0,3,"<a href=\"Comments.php.html#92\">Comments::loadComment<\/a>"],[0,10,"<a href=\"Comments.php.html#137\">Comments::addAttachmentLinks<\/a>"],[0,2,"<a href=\"Comments.php.html#210\">Comments::getFileLink<\/a>"],[0,4,"<a href=\"ContentItems.php.html#11\">ContentItems::getData<\/a>"],[0,2,"<a href=\"CurrentVersion.php.html#12\">CurrentVersion::getData<\/a>"],[0,3,"<a href=\"Files.php.html#10\">Files::getData<\/a>"],[0,5,"<a href=\"Meta.php.html#9\">Meta::getData<\/a>"],[0,13,"<a href=\"ObjectProperties.php.html#10\">ObjectProperties::getData<\/a>"],[0,4,"<a href=\"SystemProperties.php.html#13\">SystemProperties::getData<\/a>"],[0,3,"<a href=\"Tasks.php.html#11\">Tasks::getData<\/a>"],[0,6,"<a href=\"Thumb.php.html#11\">Thumb::getData<\/a>"],[0,3,"<a href=\"Versions.php.html#11\">Versions::getData<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

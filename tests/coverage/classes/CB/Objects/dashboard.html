@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for E:\var\www\casebox\httpsdocs/classes/CB/Objects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../css/nv.d3.css" rel="stylesheet">
+  <link href="../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../js/html5shiv.min.js"></script>
+  <script src="../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../index.html">E:\var\www\casebox\httpsdocs</a></li>
+        <li><a href="../../index.html">classes</a></li>
+        <li><a href="../index.html">CB</a></li>
+        <li><a href="index.html">Objects</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Plugins/Thumb.php.html#9">Thumb</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Tasks.php.html#8">Tasks</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/SystemProperties.php.html#10">SystemProperties</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Versions.php.html#9">Versions</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shortcut.php.html#7">Shortcut</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemplateField.php.html#11">TemplateField</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#9">Task</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/ObjectProperties.php.html#8">ObjectProperties</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Meta.php.html#7">Meta</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Base.php.html#5">Base</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="File.php.html#9">File</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comment.php.html#8">Comment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Comments.php.html#10">Comments</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/ContentItems.php.html#8">ContentItems</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/CurrentVersion.php.html#9">CurrentVersion</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Files.php.html#7">Files</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Template.php.html#14">Template</a></td><td class="text-right">6%</td></tr>
+       <tr><td><a href="Object.php.html#14">Object</a></td><td class="text-right">27%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Object.php.html#14">Object</a></td><td class="text-right">17947</td></tr>
+       <tr><td><a href="Template.php.html#14">Template</a></td><td class="text-right">17690</td></tr>
+       <tr><td><a href="Task.php.html#9">Task</a></td><td class="text-right">6642</td></tr>
+       <tr><td><a href="TemplateField.php.html#11">TemplateField</a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="Plugins/Comments.php.html#10">Comments</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Comment.php.html#8">Comment</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Shortcut.php.html#7">Shortcut</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Plugins/ObjectProperties.php.html#8">ObjectProperties</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="File.php.html#9">File</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Plugins/Base.php.html#5">Base</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Plugins/Thumb.php.html#9">Thumb</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugins/Meta.php.html#7">Meta</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugins/ContentItems.php.html#8">ContentItems</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugins/SystemProperties.php.html#10">SystemProperties</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugins/Versions.php.html#9">Versions</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugins/Files.php.html#7">Files</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugins/Tasks.php.html#8">Tasks</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugins/CurrentVersion.php.html#9">CurrentVersion</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Task.php.html#157"><abbr title="Task::update">update</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#67"><abbr title="Task::upgradeTaskData">upgradeTaskData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#44"><abbr title="Task::loadCustomData">loadCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#28"><abbr title="Task::create">create</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#173"><abbr title="Task::setParamsFromData">setParamsFromData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#233"><abbr title="Task::markActive">markActive</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#293"><abbr title="Task::isClosed">isClosed</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#278"><abbr title="Task::setClosed">setClosed</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#265"><abbr title="Task::markClosed">markClosed</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#248"><abbr title="Task::setActive">setActive</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shortcut.php.html#90"><abbr title="Shortcut::update">update</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shortcut.php.html#68"><abbr title="Shortcut::loadCustomData">loadCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/ObjectProperties.php.html#10"><abbr title="ObjectProperties::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Meta.php.html#9"><abbr title="Meta::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Files.php.html#10"><abbr title="Files::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/CurrentVersion.php.html#12"><abbr title="CurrentVersion::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/SystemProperties.php.html#13"><abbr title="SystemProperties::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Tasks.php.html#11"><abbr title="Tasks::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shortcut.php.html#29"><abbr title="Shortcut::create">create</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Versions.php.html#11"><abbr title="Versions::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Thumb.php.html#11"><abbr title="Thumb::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#302"><abbr title="Task::getStatus">getStatus</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#319"><abbr title="Task::getStatusText">getStatusText</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Template.php.html#704"><abbr title="Template::formatConditionForDisplay">formatConditionForDisplay</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Template.php.html#467"><abbr title="Template::formatValueForDisplay">formatValueForDisplay</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Template.php.html#434"><abbr title="Template::getHeaderField">getHeaderField</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Template.php.html#420"><abbr title="Template::getFieldOrder">getFieldOrder</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemplateField.php.html#37"><abbr title="TemplateField::createCustomData">createCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemplateField.php.html#128"><abbr title="TemplateField::loadCustomData">loadCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemplateField.php.html#297"><abbr title="TemplateField::moveCustomDataTo">moveCustomDataTo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemplateField.php.html#242"><abbr title="TemplateField::copyCustomDataTo">copyCustomDataTo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemplateField.php.html#218"><abbr title="TemplateField::detectParentTemplate">detectParentTemplate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemplateField.php.html#155"><abbr title="TemplateField::updateCustomData">updateCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Template.php.html#340"><abbr title="Template::saveFields">saveFields</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Template.php.html#289"><abbr title="Template::copyCustomDataTo">copyCustomDataTo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#427"><abbr title="Task::checkAutoclose">checkAutoclose</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#387"><abbr title="Task::setUserStatus">setUserStatus</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#362"><abbr title="Task::getUserStatus">getUserStatus</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#333"><abbr title="Task::getStatusCSSClass">getStatusCSSClass</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#444"><abbr title="Task::getActionFlags">getActionFlags</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#471"><abbr title="Task::getEndDate">getEndDate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Template.php.html#227"><abbr title="Template::updateCustomData">updateCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Template.php.html#74"><abbr title="Template::createCustomData">createCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task.php.html#494"><abbr title="Task::getPreviewBlocks">getPreviewBlocks</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/ContentItems.php.html#11"><abbr title="ContentItems::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Comments.php.html#210"><abbr title="Comments::getFileLink">getFileLink</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#634"><abbr title="Object::getActionFlags">getActionFlags</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#610"><abbr title="Object::setSysDataProperty">setSysDataProperty</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#584"><abbr title="Object::getSysDataProperty">getSysDataProperty</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#718"><abbr title="Object::restore">restore</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#761"><abbr title="Object::restoreCustomData">restoreCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comment.php.html#15"><abbr title="Comment::create">create</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#781"><abbr title="Object::isOwner">isOwner</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#770"><abbr title="Object::getOwner">getOwner</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#544"><abbr title="Object::updateSysData">updateSysData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#515"><abbr title="Object::getSysData">getSysData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="File.php.html#51"><abbr title="File::loadCustomData">loadCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="File.php.html#16"><abbr title="File::createCustomData">createCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comment.php.html#37"><abbr title="Comment::processAndFormatMessage">processAndFormatMessage</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="File.php.html#105"><abbr title="File::updateCustomData">updateCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="File.php.html#147"><abbr title="File::copyCustomDataTo">copyCustomDataTo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#473"><abbr title="Object::updateCustomData">updateCustomData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#367"><abbr title="Object::update">update</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#972"><abbr title="Object::getTemplateName">getTemplateName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#879"><abbr title="Object::fieldsArraySorter">fieldsArraySorter</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#1335"><abbr title="Object::moveCustomDataTo">moveCustomDataTo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#1226"><abbr title="Object::moveTo">moveTo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#1196"><abbr title="Object::copyCustomDataTo">copyCustomDataTo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Base.php.html#36"><abbr title="Base::setId">setId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#1402"><abbr title="Object::filterFieldValue">filterFieldValue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Base.php.html#18"><abbr title="Base::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#1422"><abbr title="Object::getPreviewBlocks">getPreviewBlocks</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#1043"><abbr title="Object::copyTo">copyTo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#1007"><abbr title="Object::isFieldValue">isFieldValue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Comments.php.html#92"><abbr title="Comments::loadComment">loadComment</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Comments.php.html#137"><abbr title="Comments::addAttachmentLinks">addAttachmentLinks</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Comments.php.html#28"><abbr title="Comments::loadMore">loadMore</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Comments.php.html#18"><abbr title="Comments::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Base.php.html#10"><abbr title="Base::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugins/Base.php.html#44"><abbr title="Base::getObjectClass">getObjectClass</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Object.php.html#894"><abbr title="Object::getLinearNodesData">getLinearNodesData</a></a></td><td class="text-right">10%</td></tr>
+       <tr><td><a href="Object.php.html#253"><abbr title="Object::checkDraftChilds">checkDraftChilds</a></a></td><td class="text-right">11%</td></tr>
+       <tr><td><a href="Object.php.html#1347"><abbr title="Object::filterHTMLFields">filterHTMLFields</a></a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="Object.php.html#851"><abbr title="Object::getAssocLinearData">getAssocLinearData</a></a></td><td class="text-right">38%</td></tr>
+       <tr><td><a href="Object.php.html#820"><abbr title="Object::getData">getData</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Object.php.html#959"><abbr title="Object::getTemplate">getTemplate</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Object.php.html#940"><abbr title="Object::setData">setData</a></a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Template.php.html#401"><abbr title="Template::getField">getField</a></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Object.php.html#801"><abbr title="Object::getFieldValue">getFieldValue</a></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Object.php.html#989"><abbr title="Object::getType">getType</a></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Object.php.html#834"><abbr title="Object::getLinearData">getLinearData</a></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Object.php.html#59"><abbr title="Object::create">create</a></a></td><td class="text-right">81%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Template.php.html#467"><abbr title="Template::formatValueForDisplay">formatValueForDisplay</abbr></a></td><td class="text-right">3080</td></tr>
+       <tr><td><a href="Template.php.html#704"><abbr title="Template::formatConditionForDisplay">formatConditionForDisplay</abbr></a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="Object.php.html#1422"><abbr title="Object::getPreviewBlocks">getPreviewBlocks</abbr></a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="TemplateField.php.html#37"><abbr title="TemplateField::createCustomData">createCustomData</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Task.php.html#494"><abbr title="Task::getPreviewBlocks">getPreviewBlocks</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Template.php.html#74"><abbr title="Template::createCustomData">createCustomData</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Object.php.html#367"><abbr title="Object::update">update</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Object.php.html#1043"><abbr title="Object::copyTo">copyTo</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Object.php.html#1226"><abbr title="Object::moveTo">moveTo</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Template.php.html#227"><abbr title="Template::updateCustomData">updateCustomData</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="TemplateField.php.html#155"><abbr title="TemplateField::updateCustomData">updateCustomData</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Object.php.html#1347"><abbr title="Object::filterHTMLFields">filterHTMLFields</abbr></a></td><td class="text-right">193</td></tr>
+       <tr><td><a href="Plugins/ObjectProperties.php.html#10"><abbr title="ObjectProperties::getData">getData</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Comment.php.html#37"><abbr title="Comment::processAndFormatMessage">processAndFormatMessage</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Task.php.html#67"><abbr title="Task::upgradeTaskData">upgradeTaskData</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Template.php.html#340"><abbr title="Template::saveFields">saveFields</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Plugins/Comments.php.html#137"><abbr title="Comments::addAttachmentLinks">addAttachmentLinks</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Task.php.html#173"><abbr title="Task::setParamsFromData">setParamsFromData</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Object.php.html#894"><abbr title="Object::getLinearNodesData">getLinearNodesData</abbr></a></td><td class="text-right">82</td></tr>
+       <tr><td><a href="Template.php.html#434"><abbr title="Template::getHeaderField">getHeaderField</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Shortcut.php.html#29"><abbr title="Shortcut::create">create</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Plugins/Comments.php.html#28"><abbr title="Comments::loadMore">loadMore</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Task.php.html#387"><abbr title="Task::setUserStatus">setUserStatus</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Plugins/Thumb.php.html#11"><abbr title="Thumb::getData">getData</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Task.php.html#444"><abbr title="Task::getActionFlags">getActionFlags</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Object.php.html#253"><abbr title="Object::checkDraftChilds">checkDraftChilds</abbr></a></td><td class="text-right">31</td></tr>
+       <tr><td><a href="Task.php.html#333"><abbr title="Task::getStatusCSSClass">getStatusCSSClass</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Object.php.html#473"><abbr title="Object::updateCustomData">updateCustomData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugins/Meta.php.html#9"><abbr title="Meta::getData">getData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="File.php.html#51"><abbr title="File::loadCustomData">loadCustomData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Object.php.html#1007"><abbr title="Object::isFieldValue">isFieldValue</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TemplateField.php.html#218"><abbr title="TemplateField::detectParentTemplate">detectParentTemplate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Object.php.html#59"><abbr title="Object::create">create</abbr></a></td><td class="text-right">22</td></tr>
+       <tr><td><a href="Object.php.html#544"><abbr title="Object::updateSysData">updateSysData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugins/ContentItems.php.html#11"><abbr title="ContentItems::getData">getData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Object.php.html#584"><abbr title="Object::getSysDataProperty">getSysDataProperty</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Object.php.html#879"><abbr title="Object::fieldsArraySorter">fieldsArraySorter</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Object.php.html#515"><abbr title="Object::getSysData">getSysData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugins/SystemProperties.php.html#13"><abbr title="SystemProperties::getData">getData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Task.php.html#362"><abbr title="Task::getUserStatus">getUserStatus</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Object.php.html#718"><abbr title="Object::restore">restore</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Object.php.html#610"><abbr title="Object::setSysDataProperty">setSysDataProperty</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Shortcut.php.html#90"><abbr title="Shortcut::update">update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugins/Tasks.php.html#11"><abbr title="Tasks::getData">getData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Shortcut.php.html#68"><abbr title="Shortcut::loadCustomData">loadCustomData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugins/Versions.php.html#11"><abbr title="Versions::getData">getData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugins/Base.php.html#18"><abbr title="Base::getData">getData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugins/Files.php.html#10"><abbr title="Files::getData">getData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TemplateField.php.html#128"><abbr title="TemplateField::loadCustomData">loadCustomData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugins/Base.php.html#44"><abbr title="Base::getObjectClass">getObjectClass</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Object.php.html#1402"><abbr title="Object::filterFieldValue">filterFieldValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Task.php.html#471"><abbr title="Task::getEndDate">getEndDate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugins/Comments.php.html#92"><abbr title="Comments::loadComment">loadComment</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Template.php.html#420"><abbr title="Template::getFieldOrder">getFieldOrder</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Template.php.html#289"><abbr title="Template::copyCustomDataTo">copyCustomDataTo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Task.php.html#319"><abbr title="Task::getStatusText">getStatusText</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Task.php.html#427"><abbr title="Task::checkAutoclose">checkAutoclose</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TemplateField.php.html#297"><abbr title="TemplateField::moveCustomDataTo">moveCustomDataTo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TemplateField.php.html#242"><abbr title="TemplateField::copyCustomDataTo">copyCustomDataTo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugins/CurrentVersion.php.html#12"><abbr title="CurrentVersion::getData">getData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Object.php.html#959"><abbr title="Object::getTemplate">getTemplate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Task.php.html#302"><abbr title="Task::getStatus">getStatus</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Object.php.html#1196"><abbr title="Object::copyCustomDataTo">copyCustomDataTo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Object.php.html#781"><abbr title="Object::isOwner">isOwner</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="File.php.html#147"><abbr title="File::copyCustomDataTo">copyCustomDataTo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="File.php.html#16"><abbr title="File::createCustomData">createCustomData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="File.php.html#105"><abbr title="File::updateCustomData">updateCustomData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugins/Base.php.html#36"><abbr title="Base::setId">setId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Object.php.html#972"><abbr title="Object::getTemplateName">getTemplateName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Task.php.html#248"><abbr title="Task::setActive">setActive</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugins/Comments.php.html#210"><abbr title="Comments::getFileLink">getFileLink</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Task.php.html#157"><abbr title="Task::update">update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Task.php.html#44"><abbr title="Task::loadCustomData">loadCustomData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Task.php.html#28"><abbr title="Task::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Task.php.html#278"><abbr title="Task::setClosed">setClosed</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Comment.php.html#15"><abbr title="Comment::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Template.php.html#401"><abbr title="Template::getField">getField</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Object.php.html#820"><abbr title="Object::getData">getData</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Object.php.html#940"><abbr title="Object::setData">setData</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Object.php.html#801"><abbr title="Object::getFieldValue">getFieldValue</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Object.php.html#834"><abbr title="Object::getLinearData">getLinearData</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Object.php.html#851"><abbr title="Object::getAssocLinearData">getAssocLinearData</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Object.php.html#989"><abbr title="Object::getType">getType</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.0.16</a> using <a href="http://php.net/" target="_top">PHP 5.5.24</a> and <a href="http://phpunit.de/">PHPUnit 4.6.6</a> at Wed May 6 13:49:24 UTC 2015.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../js/holder.js" type="text/javascript"></script>
+  <script src="../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([16,1,0,1,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([80,0,3,0,1,0,3,0,2,3,3,4], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,15,"<a href=\"Comment.php.html#8\">Comment<\/a>"],[0,11,"<a href=\"File.php.html#9\">File<\/a>"],[27.340267459138,215,"<a href=\"Object.php.html#14\">Object<\/a>"],[0,9,"<a href=\"Plugins\/Base.php.html#5\">Base<\/a>"],[0,23,"<a href=\"Plugins\/Comments.php.html#10\">Comments<\/a>"],[0,4,"<a href=\"Plugins\/ContentItems.php.html#8\">ContentItems<\/a>"],[0,2,"<a href=\"Plugins\/CurrentVersion.php.html#9\">CurrentVersion<\/a>"],[0,3,"<a href=\"Plugins\/Files.php.html#7\">Files<\/a>"],[0,5,"<a href=\"Plugins\/Meta.php.html#7\">Meta<\/a>"],[0,13,"<a href=\"Plugins\/ObjectProperties.php.html#8\">ObjectProperties<\/a>"],[0,4,"<a href=\"Plugins\/SystemProperties.php.html#10\">SystemProperties<\/a>"],[0,3,"<a href=\"Plugins\/Tasks.php.html#8\">Tasks<\/a>"],[0,6,"<a href=\"Plugins\/Thumb.php.html#9\">Thumb<\/a>"],[0,3,"<a href=\"Plugins\/Versions.php.html#9\">Versions<\/a>"],[0,13,"<a href=\"Shortcut.php.html#7\">Shortcut<\/a>"],[0,81,"<a href=\"Task.php.html#9\">Task<\/a>"],[6.7114093959732,147,"<a href=\"Template.php.html#14\">Template<\/a>"],[0,46,"<a href=\"TemplateField.php.html#11\">TemplateField<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"Comment.php.html#15\">Comment::create<\/a>"],[0,13,"<a href=\"Comment.php.html#37\">Comment::processAndFormatMessage<\/a>"],[0,2,"<a href=\"File.php.html#16\">File::createCustomData<\/a>"],[0,5,"<a href=\"File.php.html#51\">File::loadCustomData<\/a>"],[0,2,"<a href=\"File.php.html#105\">File::updateCustomData<\/a>"],[0,2,"<a href=\"File.php.html#147\">File::copyCustomDataTo<\/a>"],[100,2,"<a href=\"Object.php.html#46\">Object::__construct<\/a>"],[81.25,20,"<a href=\"Object.php.html#59\">Object::create<\/a>"],[100,2,"<a href=\"Object.php.html#224\">Object::createCustomData<\/a>"],[11.111111111111,6,"<a href=\"Object.php.html#253\">Object::checkDraftChilds<\/a>"],[95.652173913043,7,"<a href=\"Object.php.html#292\">Object::load<\/a>"],[100,3,"<a href=\"Object.php.html#344\">Object::loadCustomData<\/a>"],[0,16,"<a href=\"Object.php.html#367\">Object::update<\/a>"],[0,5,"<a href=\"Object.php.html#473\">Object::updateCustomData<\/a>"],[0,4,"<a href=\"Object.php.html#515\">Object::getSysData<\/a>"],[0,4,"<a href=\"Object.php.html#544\">Object::updateSysData<\/a>"],[0,4,"<a href=\"Object.php.html#584\">Object::getSysDataProperty<\/a>"],[0,4,"<a href=\"Object.php.html#610\">Object::setSysDataProperty<\/a>"],[0,1,"<a href=\"Object.php.html#634\">Object::getActionFlags<\/a>"],[90.625,7,"<a href=\"Object.php.html#645\">Object::delete<\/a>"],[100,1,"<a href=\"Object.php.html#709\">Object::deleteCustomData<\/a>"],[0,4,"<a href=\"Object.php.html#718\">Object::restore<\/a>"],[0,1,"<a href=\"Object.php.html#761\">Object::restoreCustomData<\/a>"],[0,1,"<a href=\"Object.php.html#770\">Object::getOwner<\/a>"],[0,2,"<a href=\"Object.php.html#781\">Object::isOwner<\/a>"],[77.777777777778,3,"<a href=\"Object.php.html#801\">Object::getFieldValue<\/a>"],[50,3,"<a href=\"Object.php.html#820\">Object::getData<\/a>"],[80,3,"<a href=\"Object.php.html#834\">Object::getLinearData<\/a>"],[38.461538461538,2,"<a href=\"Object.php.html#851\">Object::getAssocLinearData<\/a>"],[0,4,"<a href=\"Object.php.html#879\">Object::fieldsArraySorter<\/a>"],[10.344827586207,10,"<a href=\"Object.php.html#894\">Object::getLinearNodesData<\/a>"],[55.555555555556,3,"<a href=\"Object.php.html#940\">Object::setData<\/a>"],[50,4,"<a href=\"Object.php.html#959\">Object::getTemplate<\/a>"],[0,2,"<a href=\"Object.php.html#972\">Object::getTemplateName<\/a>"],[80,2,"<a href=\"Object.php.html#989\">Object::getType<\/a>"],[0,5,"<a href=\"Object.php.html#1007\">Object::isFieldValue<\/a>"],[0,15,"<a href=\"Object.php.html#1043\">Object::copyTo<\/a>"],[0,2,"<a href=\"Object.php.html#1196\">Object::copyCustomDataTo<\/a>"],[0,15,"<a href=\"Object.php.html#1226\">Object::moveTo<\/a>"],[0,1,"<a href=\"Object.php.html#1335\">Object::moveCustomDataTo<\/a>"],[15.151515151515,17,"<a href=\"Object.php.html#1347\">Object::filterHTMLFields<\/a>"],[0,3,"<a href=\"Object.php.html#1402\">Object::filterFieldValue<\/a>"],[0,27,"<a href=\"Object.php.html#1422\">Object::getPreviewBlocks<\/a>"],[0,1,"<a href=\"Plugins\/Base.php.html#10\">Base::__construct<\/a>"],[0,3,"<a href=\"Plugins\/Base.php.html#18\">Base::getData<\/a>"],[0,2,"<a href=\"Plugins\/Base.php.html#36\">Base::setId<\/a>"],[0,3,"<a href=\"Plugins\/Base.php.html#44\">Base::getObjectClass<\/a>"],[0,1,"<a href=\"Plugins\/Comments.php.html#18\">Comments::getData<\/a>"],[0,7,"<a href=\"Plugins\/Comments.php.html#28\">Comments::loadMore<\/a>"],[0,3,"<a href=\"Plugins\/Comments.php.html#92\">Comments::loadComment<\/a>"],[0,10,"<a href=\"Plugins\/Comments.php.html#137\">Comments::addAttachmentLinks<\/a>"],[0,2,"<a href=\"Plugins\/Comments.php.html#210\">Comments::getFileLink<\/a>"],[0,4,"<a href=\"Plugins\/ContentItems.php.html#11\">ContentItems::getData<\/a>"],[0,2,"<a href=\"Plugins\/CurrentVersion.php.html#12\">CurrentVersion::getData<\/a>"],[0,3,"<a href=\"Plugins\/Files.php.html#10\">Files::getData<\/a>"],[0,5,"<a href=\"Plugins\/Meta.php.html#9\">Meta::getData<\/a>"],[0,13,"<a href=\"Plugins\/ObjectProperties.php.html#10\">ObjectProperties::getData<\/a>"],[0,4,"<a href=\"Plugins\/SystemProperties.php.html#13\">SystemProperties::getData<\/a>"],[0,3,"<a href=\"Plugins\/Tasks.php.html#11\">Tasks::getData<\/a>"],[0,6,"<a href=\"Plugins\/Thumb.php.html#11\">Thumb::getData<\/a>"],[0,3,"<a href=\"Plugins\/Versions.php.html#11\">Versions::getData<\/a>"],[0,7,"<a href=\"Shortcut.php.html#29\">Shortcut::create<\/a>"],[0,3,"<a href=\"Shortcut.php.html#68\">Shortcut::loadCustomData<\/a>"],[0,3,"<a href=\"Shortcut.php.html#90\">Shortcut::update<\/a>"],[0,2,"<a href=\"Task.php.html#28\">Task::create<\/a>"],[0,2,"<a href=\"Task.php.html#44\">Task::loadCustomData<\/a>"],[0,11,"<a href=\"Task.php.html#67\">Task::upgradeTaskData<\/a>"],[0,2,"<a href=\"Task.php.html#157\">Task::update<\/a>"],[0,9,"<a href=\"Task.php.html#173\">Task::setParamsFromData<\/a>"],[0,1,"<a href=\"Task.php.html#233\">Task::markActive<\/a>"],[0,2,"<a href=\"Task.php.html#248\">Task::setActive<\/a>"],[0,1,"<a href=\"Task.php.html#265\">Task::markClosed<\/a>"],[0,2,"<a href=\"Task.php.html#278\">Task::setClosed<\/a>"],[0,1,"<a href=\"Task.php.html#293\">Task::isClosed<\/a>"],[0,2,"<a href=\"Task.php.html#302\">Task::getStatus<\/a>"],[0,2,"<a href=\"Task.php.html#319\">Task::getStatusText<\/a>"],[0,5,"<a href=\"Task.php.html#333\">Task::getStatusCSSClass<\/a>"],[0,4,"<a href=\"Task.php.html#362\">Task::getUserStatus<\/a>"],[0,7,"<a href=\"Task.php.html#387\">Task::setUserStatus<\/a>"],[0,2,"<a href=\"Task.php.html#427\">Task::checkAutoclose<\/a>"],[0,6,"<a href=\"Task.php.html#444\">Task::getActionFlags<\/a>"],[0,3,"<a href=\"Task.php.html#471\">Task::getEndDate<\/a>"],[0,17,"<a href=\"Task.php.html#494\">Task::getPreviewBlocks<\/a>"],[0,17,"<a href=\"Template.php.html#74\">Template::createCustomData<\/a>"],[96.153846153846,5,"<a href=\"Template.php.html#153\">Template::loadCustomData<\/a>"],[0,14,"<a href=\"Template.php.html#227\">Template::updateCustomData<\/a>"],[0,2,"<a href=\"Template.php.html#289\">Template::copyCustomDataTo<\/a>"],[0,10,"<a href=\"Template.php.html#340\">Template::saveFields<\/a>"],[71.428571428571,4,"<a href=\"Template.php.html#401\">Template::getField<\/a>"],[0,2,"<a href=\"Template.php.html#420\">Template::getFieldOrder<\/a>"],[0,8,"<a href=\"Template.php.html#434\">Template::getHeaderField<\/a>"],[0,55,"<a href=\"Template.php.html#467\">Template::formatValueForDisplay<\/a>"],[0,30,"<a href=\"Template.php.html#704\">Template::formatConditionForDisplay<\/a>"],[0,20,"<a href=\"TemplateField.php.html#37\">TemplateField::createCustomData<\/a>"],[0,3,"<a href=\"TemplateField.php.html#128\">TemplateField::loadCustomData<\/a>"],[0,14,"<a href=\"TemplateField.php.html#155\">TemplateField::updateCustomData<\/a>"],[0,5,"<a href=\"TemplateField.php.html#218\">TemplateField::detectParentTemplate<\/a>"],[0,2,"<a href=\"TemplateField.php.html#242\">TemplateField::copyCustomDataTo<\/a>"],[0,2,"<a href=\"TemplateField.php.html#297\">TemplateField::moveCustomDataTo<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

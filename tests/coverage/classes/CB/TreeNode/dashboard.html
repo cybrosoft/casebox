@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for E:\var\www\casebox\httpsdocs/classes/CB/TreeNode</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../css/nv.d3.css" rel="stylesheet">
+  <link href="../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../js/html5shiv.min.js"></script>
+  <script src="../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../index.html">E:\var\www\casebox\httpsdocs</a></li>
+        <li><a href="../../index.html">classes</a></li>
+        <li><a href="../index.html">CB</a></li>
+        <li><a href="index.html">TreeNode</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="RecentActivity.php.html#8">RecentActivity</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RealSubnode.php.html#6">RealSubnode</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecycleBin.php.html#8">RecycleBin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchResults.php.html#6">SearchResults</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TasksForCase.php.html#4">TasksForCase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#7">Tasks</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MyCalendar.php.html#7">MyCalendar</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Favorites.php.html#4">Favorites</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Calendar.php.html#4">Calendar</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#4">Base</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#9">CasesGrouped</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comments.php.html#4">Comments</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#10">FacetNav</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dbnode.php.html#9">Dbnode</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionLog.php.html#12">ActionLog</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Base.php.html#4">Base</a></td><td class="text-right">3906</td></tr>
+       <tr><td><a href="SearchResults.php.html#6">SearchResults</a></td><td class="text-right">3540</td></tr>
+       <tr><td><a href="Tasks.php.html#7">Tasks</a></td><td class="text-right">3192</td></tr>
+       <tr><td><a href="ActionLog.php.html#12">ActionLog</a></td><td class="text-right">2450</td></tr>
+       <tr><td><a href="FacetNav.php.html#10">FacetNav</a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="Dbnode.php.html#9">Dbnode</a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#9">CasesGrouped</a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="RecentActivity.php.html#8">RecentActivity</a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="RecycleBin.php.html#8">RecycleBin</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="MyCalendar.php.html#7">MyCalendar</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="TasksForCase.php.html#4">TasksForCase</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="RealSubnode.php.html#6">RealSubnode</a></td><td class="text-right">90</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="RecentActivity.php.html#56"><abbr title="RecentActivity::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecentActivity.php.html#38"><abbr title="RecentActivity::createDefaultFilter">createDefaultFilter</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecentActivity.php.html#11"><abbr title="RecentActivity::acceptedPath">acceptedPath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RealSubnode.php.html#47"><abbr title="RealSubnode::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecentActivity.php.html#92"><abbr title="RecentActivity::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecentActivity.php.html#121"><abbr title="RecentActivity::getRootNode">getRootNode</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecycleBin.php.html#11"><abbr title="RecycleBin::acceptedPath">acceptedPath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecentActivity.php.html#200"><abbr title="RecentActivity::getNodeParam">getNodeParam</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecentActivity.php.html#164"><abbr title="RecentActivity::getGroupItems">getGroupItems</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecentActivity.php.html#135"><abbr title="RecentActivity::getGroups">getGroups</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RealSubnode.php.html#21"><abbr title="RealSubnode::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RealSubnode.php.html#8"><abbr title="RealSubnode::acceptedPath">acceptedPath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Favorites.php.html#6"><abbr title="Favorites::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#316"><abbr title="FacetNav::replaceFilterVars">replaceFilterVars</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#269"><abbr title="FacetNav::getLevelFieldConfigs">getLevelFieldConfigs</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#244"><abbr title="FacetNav::getItems">getItems</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MyCalendar.php.html#9"><abbr title="MyCalendar::acceptedPath">acceptedPath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MyCalendar.php.html#39"><abbr title="MyCalendar::createDefaultFilter">createDefaultFilter</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MyCalendar.php.html#108"><abbr title="MyCalendar::getChildrenTasks">getChildrenTasks</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MyCalendar.php.html#94"><abbr title="MyCalendar::getRootNodes">getRootNodes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MyCalendar.php.html#81"><abbr title="MyCalendar::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MyCalendar.php.html#51"><abbr title="MyCalendar::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecycleBin.php.html#38"><abbr title="RecycleBin::createDefaultFilter">createDefaultFilter</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecycleBin.php.html#43"><abbr title="RecycleBin::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#148"><abbr title="Tasks::getDepthChildren2">getDepthChildren2</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#121"><abbr title="Tasks::getRootNodes">getRootNodes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#92"><abbr title="Tasks::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#51"><abbr title="Tasks::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#192"><abbr title="Tasks::getDepthChildren3">getDepthChildren3</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#263"><abbr title="Tasks::getChildrenTasks">getChildrenTasks</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TasksForCase.php.html#23"><abbr title="TasksForCase::createDefaultFilter">createDefaultFilter</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TasksForCase.php.html#6"><abbr title="TasksForCase::acceptedPath">acceptedPath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#349"><abbr title="Tasks::getAssigneeTasks">getAssigneeTasks</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#308"><abbr title="Tasks::getAssigneeUsers">getAssigneeUsers</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#39"><abbr title="Tasks::createDefaultFilter">createDefaultFilter</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasks.php.html#9"><abbr title="Tasks::acceptedPath">acceptedPath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchResults.php.html#8"><abbr title="SearchResults::acceptedPath">acceptedPath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecycleBin.php.html#106"><abbr title="RecycleBin::getContentItems">getContentItems</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecycleBin.php.html#92"><abbr title="RecycleBin::getRootNodes">getRootNodes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecycleBin.php.html#71"><abbr title="RecycleBin::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchResults.php.html#25"><abbr title="SearchResults::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchResults.php.html#74"><abbr title="SearchResults::getNodeParam">getNodeParam</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchResults.php.html#261"><abbr title="SearchResults::toSolrDate">toSolrDate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchResults.php.html#105"><abbr title="SearchResults::adjustCondition">adjustCondition</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchResults.php.html#84"><abbr title="SearchResults::getSearchParams">getSearchParams</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#168"><abbr title="FacetNav::getChildNodes">getChildNodes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#150"><abbr title="FacetNav::getFacetFieldConfig">getFacetFieldConfig</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#88"><abbr title="Base::getParent">getParent</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#79"><abbr title="Base::getConfig">getConfig</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#70"><abbr title="Base::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#58"><abbr title="Base::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#97"><abbr title="Base::getDepth">getDepth</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#112"><abbr title="Base::getClassDepth">getClassDepth</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#249"><abbr title="Base::getCreateMenu">getCreateMenu</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#151"><abbr title="Base::getFacets">getFacets</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#142"><abbr title="Base::hasChildren">hasChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#127"><abbr title="Base::getClassRoot">getClassRoot</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#41"><abbr title="Base::getId">getId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#31"><abbr title="Base::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionLog.php.html#147"><abbr title="ActionLog::getRootNodes">getRootNodes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionLog.php.html#91"><abbr title="ActionLog::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionLog.php.html#48"><abbr title="ActionLog::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionLog.php.html#41"><abbr title="ActionLog::createDefaultFilter">createDefaultFilter</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionLog.php.html#161"><abbr title="ActionLog::getLogGroups">getLogGroups</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionLog.php.html#228"><abbr title="ActionLog::getUsers">getUsers</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#10"><abbr title="Base::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionLog.php.html#360"><abbr title="ActionLog::getFacets">getFacets</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionLog.php.html#292"><abbr title="ActionLog::getLogRecords">getLogRecords</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionLog.php.html#260"><abbr title="ActionLog::getTypes">getTypes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#269"><abbr title="Base::getNodeParam">getNodeParam</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Base.php.html#331"><abbr title="Base::getParentNodeParam">getParentNodeParam</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dbnode.php.html#172"><abbr title="Dbnode::getNodeParam">getNodeParam</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dbnode.php.html#161"><abbr title="Dbnode::getCreateMenu">getCreateMenu</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dbnode.php.html#131"><abbr title="Dbnode::getData">getData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dbnode.php.html#117"><abbr title="Dbnode::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#12"><abbr title="FacetNav::acceptedPath">acceptedPath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#39"><abbr title="FacetNav::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#145"><abbr title="FacetNav::getCurrentFacetFieldConfig">getCurrentFacetFieldConfig</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#125"><abbr title="FacetNav::getParentNodeFilters">getParentNodeFilters</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#110"><abbr title="FacetNav::getRootNode">getRootNode</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacetNav.php.html#66"><abbr title="FacetNav::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dbnode.php.html#108"><abbr title="Dbnode::getId">getId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dbnode.php.html#11"><abbr title="Dbnode::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#50"><abbr title="CasesGrouped::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#36"><abbr title="CasesGrouped::createDefaultFilter">createDefaultFilter</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#13"><abbr title="CasesGrouped::acceptedPath">acceptedPath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Calendar.php.html#6"><abbr title="Calendar::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#82"><abbr title="CasesGrouped::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#102"><abbr title="CasesGrouped::getRootNodes">getRootNodes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comments.php.html#6"><abbr title="Comments::getChildren">getChildren</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#203"><abbr title="CasesGrouped::getCases">getCases</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#157"><abbr title="CasesGrouped::getDepthChildren2">getDepthChildren2</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionLog.php.html#15"><abbr title="ActionLog::acceptedPath">acceptedPath</a></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SearchResults.php.html#105"><abbr title="SearchResults::adjustCondition">adjustCondition</abbr></a></td><td class="text-right">1406</td></tr>
+       <tr><td><a href="Base.php.html#151"><abbr title="Base::getFacets">getFacets</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="Dbnode.php.html#11"><abbr title="Dbnode::getChildren">getChildren</abbr></a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="ActionLog.php.html#91"><abbr title="ActionLog::getName">getName</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Dbnode.php.html#172"><abbr title="Dbnode::getNodeParam">getNodeParam</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="FacetNav.php.html#168"><abbr title="FacetNav::getChildNodes">getChildNodes</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Tasks.php.html#51"><abbr title="Tasks::getChildren">getChildren</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Tasks.php.html#92"><abbr title="Tasks::getName">getName</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="FacetNav.php.html#66"><abbr title="FacetNav::getName">getName</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Base.php.html#269"><abbr title="Base::getNodeParam">getNodeParam</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="RecentActivity.php.html#92"><abbr title="RecentActivity::getName">getName</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Tasks.php.html#192"><abbr title="Tasks::getDepthChildren3">getDepthChildren3</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="SearchResults.php.html#25"><abbr title="SearchResults::getChildren">getChildren</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Tasks.php.html#263"><abbr title="Tasks::getChildrenTasks">getChildrenTasks</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#50"><abbr title="CasesGrouped::getChildren">getChildren</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="RecycleBin.php.html#106"><abbr title="RecycleBin::getContentItems">getContentItems</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="FacetNav.php.html#269"><abbr title="FacetNav::getLevelFieldConfigs">getLevelFieldConfigs</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ActionLog.php.html#292"><abbr title="ActionLog::getLogRecords">getLogRecords</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ActionLog.php.html#48"><abbr title="ActionLog::getChildren">getChildren</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="MyCalendar.php.html#51"><abbr title="MyCalendar::getChildren">getChildren</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="RealSubnode.php.html#8"><abbr title="RealSubnode::acceptedPath">acceptedPath</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#13"><abbr title="CasesGrouped::acceptedPath">acceptedPath</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ActionLog.php.html#15"><abbr title="ActionLog::acceptedPath">acceptedPath</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#82"><abbr title="CasesGrouped::getName">getName</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#102"><abbr title="CasesGrouped::getRootNodes">getRootNodes</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="RecentActivity.php.html#38"><abbr title="RecentActivity::createDefaultFilter">createDefaultFilter</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="RecycleBin.php.html#43"><abbr title="RecycleBin::getChildren">getChildren</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SearchResults.php.html#8"><abbr title="SearchResults::acceptedPath">acceptedPath</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Base.php.html#10"><abbr title="Base::__construct">__construct</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="RecycleBin.php.html#71"><abbr title="RecycleBin::getName">getName</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ActionLog.php.html#161"><abbr title="ActionLog::getLogGroups">getLogGroups</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Tasks.php.html#9"><abbr title="Tasks::acceptedPath">acceptedPath</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="RecentActivity.php.html#56"><abbr title="RecentActivity::getChildren">getChildren</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MyCalendar.php.html#9"><abbr title="MyCalendar::acceptedPath">acceptedPath</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FacetNav.php.html#39"><abbr title="FacetNav::getChildren">getChildren</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#157"><abbr title="CasesGrouped::getDepthChildren2">getDepthChildren2</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TasksForCase.php.html#6"><abbr title="TasksForCase::acceptedPath">acceptedPath</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Tasks.php.html#308"><abbr title="Tasks::getAssigneeUsers">getAssigneeUsers</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="RecentActivity.php.html#11"><abbr title="RecentActivity::acceptedPath">acceptedPath</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="RecentActivity.php.html#164"><abbr title="RecentActivity::getGroupItems">getGroupItems</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Tasks.php.html#148"><abbr title="Tasks::getDepthChildren2">getDepthChildren2</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FacetNav.php.html#12"><abbr title="FacetNav::acceptedPath">acceptedPath</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TasksForCase.php.html#23"><abbr title="TasksForCase::createDefaultFilter">createDefaultFilter</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SearchResults.php.html#84"><abbr title="SearchResults::getSearchParams">getSearchParams</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="RecentActivity.php.html#200"><abbr title="RecentActivity::getNodeParam">getNodeParam</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Dbnode.php.html#117"><abbr title="Dbnode::getName">getName</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="RecycleBin.php.html#11"><abbr title="RecycleBin::acceptedPath">acceptedPath</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Base.php.html#41"><abbr title="Base::getId">getId</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SearchResults.php.html#261"><abbr title="SearchResults::toSolrDate">toSolrDate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Base.php.html#249"><abbr title="Base::getCreateMenu">getCreateMenu</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Base.php.html#127"><abbr title="Base::getClassRoot">getClassRoot</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ActionLog.php.html#228"><abbr title="ActionLog::getUsers">getUsers</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Base.php.html#112"><abbr title="Base::getClassDepth">getClassDepth</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Dbnode.php.html#131"><abbr title="Dbnode::getData">getData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MyCalendar.php.html#81"><abbr title="MyCalendar::getName">getName</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ActionLog.php.html#260"><abbr title="ActionLog::getTypes">getTypes</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Tasks.php.html#121"><abbr title="Tasks::getRootNodes">getRootNodes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tasks.php.html#39"><abbr title="Tasks::createDefaultFilter">createDefaultFilter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RealSubnode.php.html#21"><abbr title="RealSubnode::getChildren">getChildren</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FacetNav.php.html#125"><abbr title="FacetNav::getParentNodeFilters">getParentNodeFilters</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FacetNav.php.html#150"><abbr title="FacetNav::getFacetFieldConfig">getFacetFieldConfig</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FacetNav.php.html#110"><abbr title="FacetNav::getRootNode">getRootNode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Dbnode.php.html#108"><abbr title="Dbnode::getId">getId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#203"><abbr title="CasesGrouped::getCases">getCases</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Base.php.html#97"><abbr title="Base::getDepth">getDepth</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FacetNav.php.html#316"><abbr title="FacetNav::replaceFilterVars">replaceFilterVars</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Base.php.html#58"><abbr title="Base::getName">getName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CasesGrouped.php.html#36"><abbr title="CasesGrouped::createDefaultFilter">createDefaultFilter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MyCalendar.php.html#108"><abbr title="MyCalendar::getChildrenTasks">getChildrenTasks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MyCalendar.php.html#39"><abbr title="MyCalendar::createDefaultFilter">createDefaultFilter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SearchResults.php.html#74"><abbr title="SearchResults::getNodeParam">getNodeParam</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.0.16</a> using <a href="http://php.net/" target="_top">PHP 5.5.24</a> and <a href="http://phpunit.de/">PHPUnit 4.6.6</a> at Wed May 6 13:49:24 UTC 2015.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../js/holder.js" type="text/javascript"></script>
+  <script src="../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([15,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([93,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,49,"<a href=\"ActionLog.php.html#12\">ActionLog<\/a>"],[0,62,"<a href=\"Base.php.html#4\">Base<\/a>"],[0,1,"<a href=\"Calendar.php.html#4\">Calendar<\/a>"],[0,35,"<a href=\"CasesGrouped.php.html#9\">CasesGrouped<\/a>"],[0,1,"<a href=\"Comments.php.html#4\">Comments<\/a>"],[0,46,"<a href=\"Dbnode.php.html#9\">Dbnode<\/a>"],[0,46,"<a href=\"FacetNav.php.html#10\">FacetNav<\/a>"],[0,1,"<a href=\"Favorites.php.html#4\">Favorites<\/a>"],[0,19,"<a href=\"MyCalendar.php.html#7\">MyCalendar<\/a>"],[0,9,"<a href=\"RealSubnode.php.html#6\">RealSubnode<\/a>"],[0,33,"<a href=\"RecentActivity.php.html#8\">RecentActivity<\/a>"],[0,24,"<a href=\"RecycleBin.php.html#8\">RecycleBin<\/a>"],[0,59,"<a href=\"SearchResults.php.html#6\">SearchResults<\/a>"],[0,56,"<a href=\"Tasks.php.html#7\">Tasks<\/a>"],[0,9,"<a href=\"TasksForCase.php.html#4\">TasksForCase<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,6,"<a href=\"ActionLog.php.html#15\">ActionLog::acceptedPath<\/a>"],[0,1,"<a href=\"ActionLog.php.html#41\">ActionLog::createDefaultFilter<\/a>"],[0,8,"<a href=\"ActionLog.php.html#48\">ActionLog::getChildren<\/a>"],[0,13,"<a href=\"ActionLog.php.html#91\">ActionLog::getName<\/a>"],[0,1,"<a href=\"ActionLog.php.html#147\">ActionLog::getRootNodes<\/a>"],[0,5,"<a href=\"ActionLog.php.html#161\">ActionLog::getLogGroups<\/a>"],[0,3,"<a href=\"ActionLog.php.html#228\">ActionLog::getUsers<\/a>"],[0,3,"<a href=\"ActionLog.php.html#260\">ActionLog::getTypes<\/a>"],[0,8,"<a href=\"ActionLog.php.html#292\">ActionLog::getLogRecords<\/a>"],[0,1,"<a href=\"ActionLog.php.html#360\">ActionLog::getFacets<\/a>"],[0,5,"<a href=\"Base.php.html#10\">Base::__construct<\/a>"],[0,1,"<a href=\"Base.php.html#31\">Base::getChildren<\/a>"],[0,3,"<a href=\"Base.php.html#41\">Base::getId<\/a>"],[0,2,"<a href=\"Base.php.html#58\">Base::getName<\/a>"],[0,1,"<a href=\"Base.php.html#70\">Base::getData<\/a>"],[0,1,"<a href=\"Base.php.html#79\">Base::getConfig<\/a>"],[0,1,"<a href=\"Base.php.html#88\">Base::getParent<\/a>"],[0,2,"<a href=\"Base.php.html#97\">Base::getDepth<\/a>"],[0,3,"<a href=\"Base.php.html#112\">Base::getClassDepth<\/a>"],[0,3,"<a href=\"Base.php.html#127\">Base::getClassRoot<\/a>"],[0,1,"<a href=\"Base.php.html#142\">Base::hasChildren<\/a>"],[0,26,"<a href=\"Base.php.html#151\">Base::getFacets<\/a>"],[0,3,"<a href=\"Base.php.html#249\">Base::getCreateMenu<\/a>"],[0,9,"<a href=\"Base.php.html#269\">Base::getNodeParam<\/a>"],[0,1,"<a href=\"Base.php.html#331\">Base::getParentNodeParam<\/a>"],[0,1,"<a href=\"Calendar.php.html#6\">Calendar::getChildren<\/a>"],[0,6,"<a href=\"CasesGrouped.php.html#13\">CasesGrouped::acceptedPath<\/a>"],[0,2,"<a href=\"CasesGrouped.php.html#36\">CasesGrouped::createDefaultFilter<\/a>"],[0,8,"<a href=\"CasesGrouped.php.html#50\">CasesGrouped::getChildren<\/a>"],[0,6,"<a href=\"CasesGrouped.php.html#82\">CasesGrouped::getName<\/a>"],[0,6,"<a href=\"CasesGrouped.php.html#102\">CasesGrouped::getRootNodes<\/a>"],[0,5,"<a href=\"CasesGrouped.php.html#157\">CasesGrouped::getDepthChildren2<\/a>"],[0,2,"<a href=\"CasesGrouped.php.html#203\">CasesGrouped::getCases<\/a>"],[0,1,"<a href=\"Comments.php.html#6\">Comments::getChildren<\/a>"],[0,24,"<a href=\"Dbnode.php.html#11\">Dbnode::getChildren<\/a>"],[0,2,"<a href=\"Dbnode.php.html#108\">Dbnode::getId<\/a>"],[0,4,"<a href=\"Dbnode.php.html#117\">Dbnode::getName<\/a>"],[0,3,"<a href=\"Dbnode.php.html#131\">Dbnode::getData<\/a>"],[0,1,"<a href=\"Dbnode.php.html#161\">Dbnode::getCreateMenu<\/a>"],[0,12,"<a href=\"Dbnode.php.html#172\">Dbnode::getNodeParam<\/a>"],[0,4,"<a href=\"FacetNav.php.html#12\">FacetNav::acceptedPath<\/a>"],[0,5,"<a href=\"FacetNav.php.html#39\">FacetNav::getChildren<\/a>"],[0,9,"<a href=\"FacetNav.php.html#66\">FacetNav::getName<\/a>"],[0,2,"<a href=\"FacetNav.php.html#110\">FacetNav::getRootNode<\/a>"],[0,2,"<a href=\"FacetNav.php.html#125\">FacetNav::getParentNodeFilters<\/a>"],[0,1,"<a href=\"FacetNav.php.html#145\">FacetNav::getCurrentFacetFieldConfig<\/a>"],[0,2,"<a href=\"FacetNav.php.html#150\">FacetNav::getFacetFieldConfig<\/a>"],[0,10,"<a href=\"FacetNav.php.html#168\">FacetNav::getChildNodes<\/a>"],[0,1,"<a href=\"FacetNav.php.html#244\">FacetNav::getItems<\/a>"],[0,8,"<a href=\"FacetNav.php.html#269\">FacetNav::getLevelFieldConfigs<\/a>"],[0,2,"<a href=\"FacetNav.php.html#316\">FacetNav::replaceFilterVars<\/a>"],[0,1,"<a href=\"Favorites.php.html#6\">Favorites::getChildren<\/a>"],[0,5,"<a href=\"MyCalendar.php.html#9\">MyCalendar::acceptedPath<\/a>"],[0,2,"<a href=\"MyCalendar.php.html#39\">MyCalendar::createDefaultFilter<\/a>"],[0,6,"<a href=\"MyCalendar.php.html#51\">MyCalendar::getChildren<\/a>"],[0,3,"<a href=\"MyCalendar.php.html#81\">MyCalendar::getName<\/a>"],[0,1,"<a href=\"MyCalendar.php.html#94\">MyCalendar::getRootNodes<\/a>"],[0,2,"<a href=\"MyCalendar.php.html#108\">MyCalendar::getChildrenTasks<\/a>"],[0,6,"<a href=\"RealSubnode.php.html#8\">RealSubnode::acceptedPath<\/a>"],[0,2,"<a href=\"RealSubnode.php.html#21\">RealSubnode::getChildren<\/a>"],[0,1,"<a href=\"RealSubnode.php.html#47\">RealSubnode::getName<\/a>"],[0,4,"<a href=\"RecentActivity.php.html#11\">RecentActivity::acceptedPath<\/a>"],[0,5,"<a href=\"RecentActivity.php.html#38\">RecentActivity::createDefaultFilter<\/a>"],[0,5,"<a href=\"RecentActivity.php.html#56\">RecentActivity::getChildren<\/a>"],[0,9,"<a href=\"RecentActivity.php.html#92\">RecentActivity::getName<\/a>"],[0,1,"<a href=\"RecentActivity.php.html#121\">RecentActivity::getRootNode<\/a>"],[0,1,"<a href=\"RecentActivity.php.html#135\">RecentActivity::getGroups<\/a>"],[0,4,"<a href=\"RecentActivity.php.html#164\">RecentActivity::getGroupItems<\/a>"],[0,4,"<a href=\"RecentActivity.php.html#200\">RecentActivity::getNodeParam<\/a>"],[0,4,"<a href=\"RecycleBin.php.html#11\">RecycleBin::acceptedPath<\/a>"],[0,1,"<a href=\"RecycleBin.php.html#38\">RecycleBin::createDefaultFilter<\/a>"],[0,5,"<a href=\"RecycleBin.php.html#43\">RecycleBin::getChildren<\/a>"],[0,5,"<a href=\"RecycleBin.php.html#71\">RecycleBin::getName<\/a>"],[0,1,"<a href=\"RecycleBin.php.html#92\">RecycleBin::getRootNodes<\/a>"],[0,8,"<a href=\"RecycleBin.php.html#106\">RecycleBin::getContentItems<\/a>"],[0,5,"<a href=\"SearchResults.php.html#8\">SearchResults::acceptedPath<\/a>"],[0,8,"<a href=\"SearchResults.php.html#25\">SearchResults::getChildren<\/a>"],[0,2,"<a href=\"SearchResults.php.html#74\">SearchResults::getNodeParam<\/a>"],[0,4,"<a href=\"SearchResults.php.html#84\">SearchResults::getSearchParams<\/a>"],[0,37,"<a href=\"SearchResults.php.html#105\">SearchResults::adjustCondition<\/a>"],[0,3,"<a href=\"SearchResults.php.html#261\">SearchResults::toSolrDate<\/a>"],[0,5,"<a href=\"Tasks.php.html#9\">Tasks::acceptedPath<\/a>"],[0,2,"<a href=\"Tasks.php.html#39\">Tasks::createDefaultFilter<\/a>"],[0,10,"<a href=\"Tasks.php.html#51\">Tasks::getChildren<\/a>"],[0,10,"<a href=\"Tasks.php.html#92\">Tasks::getName<\/a>"],[0,2,"<a href=\"Tasks.php.html#121\">Tasks::getRootNodes<\/a>"],[0,4,"<a href=\"Tasks.php.html#148\">Tasks::getDepthChildren2<\/a>"],[0,9,"<a href=\"Tasks.php.html#192\">Tasks::getDepthChildren3<\/a>"],[0,8,"<a href=\"Tasks.php.html#263\">Tasks::getChildrenTasks<\/a>"],[0,5,"<a href=\"Tasks.php.html#308\">Tasks::getAssigneeUsers<\/a>"],[0,1,"<a href=\"Tasks.php.html#349\">Tasks::getAssigneeTasks<\/a>"],[0,5,"<a href=\"TasksForCase.php.html#6\">TasksForCase::acceptedPath<\/a>"],[0,4,"<a href=\"TasksForCase.php.html#23\">TasksForCase::createDefaultFilter<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

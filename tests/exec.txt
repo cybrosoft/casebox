@@ -1,0 +1,11 @@
+
+2015-05-05 19:10:00 Processing core phpunittest ... updating tree
+
+Notice: Undefined index: task_u_done in E:\var\www\casebox\httpsdocs\classes\CB\Tasks.php on line 405
+
+Notice: Undefined index: task_u_ongoing in E:\var\www\casebox\httpsdocs\classes\CB\Tasks.php on line 406
+
+Notice: Undefined index: task_u_done in E:\var\www\casebox\httpsdocs\classes\CB\Tasks.php on line 405
+
+Notice: Undefined index: task_u_ongoing in E:\var\www\casebox\httpsdocs\classes\CB\Tasks.php on line 406
+optimizing
